@@ -40,7 +40,7 @@ inline int sum_AB(int A, int B) {
 
 //Шаблонная функция
 template <typename T>
-T abs(T) {
+T abs(T num) {
 	return num < 0 ? -num : num;
 }
 
@@ -64,7 +64,7 @@ int main() {
 
 		std::cout << abs(-5) << '\n'; // 5
 		std::cout << abs(7.4) << '\n'; // 7.4
-
+		std::cout << abs(-1.1f) << '\n';
 
 
 
